@@ -7,16 +7,19 @@ export default function NavBar() {
       <Link href='/'>
         Home
       </Link>
-      <Link href='/pages/create'>
+      <Link href='/create'>
         Create
       </Link>
-      <Link href='/pages/update'>
+      <Link href={`/read`}>
+        Read
+      </Link>
+      <Link href='/update'>
         Update
       </Link>
-      <Link href='/pages/delete'>
+      <Link href='/delete'>
         Delete
       </Link>
-      <Link href='/pages/admin' className=' text-[#ff4646]'>
+      <Link href='/admin' className='text-[#ff4646]'>
         Admin
       </Link>
     </div>
